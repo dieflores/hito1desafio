@@ -7,7 +7,7 @@ import retrofit2.http.*
 
 interface ApiSkate {
     @GET("")
-    fun getAllSkates(): Call<List<Skates>>
+    fun getAllSkates(): Call<MutableList<Skates>>
 
     @DELETE("")
     fun deleteSuperHero(@Path("") heroId: Int?): Call<Void>

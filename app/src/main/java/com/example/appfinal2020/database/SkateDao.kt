@@ -15,7 +15,7 @@ interface SkateDao {
 
 
     //Traer los elementos de la tabla
-    @Query("SELECT * FROM skates_table ORDER BY skateid DESC")
-    fun getAllSuperHeroesList(): LiveData<List<Skates>>
+    @Query("SELECT * FROM skates_table ORDER BY id DESC")
+    fun getAllSkatesList(): LiveData<List<Skates>>
 }
 

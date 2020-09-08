@@ -7,7 +7,7 @@ class RetrofitClientSkate {
 
 
     companion object{
-        private const val BASE_URL = "https://mashape-community-skate-ipsum.p.rapidapi.com/3/1/JSON"
+        private const val BASE_URL = "https://www.data.act.gov.au/resource/3np9-m3i7.json"
         fun retrofitInstance(): ApiSkate {
             val retrofit: Retrofit = Retrofit.Builder()
                 .baseUrl(BASE_URL)
